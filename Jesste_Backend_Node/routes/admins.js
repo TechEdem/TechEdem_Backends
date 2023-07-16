@@ -83,7 +83,7 @@ router.post('/login', async(req, res, next)=>{
                     adminId: admin.id
                 },
                 secret,
-                {expiresIn:"1d"}
+                {expiresIn:"1h"}
             )
             res.status(201).json({
                 user:admin.email,
