@@ -27,11 +27,13 @@ app.use(express.static(path.join(__dirname, 'assets')));
 const userRoute = require('./routes/users');
 const keyRoute = require('./routes/keys');
 const AdminRoute = require('./routes/admins');
+const QuestionRoute = require('./routes/questions')
 
 //Mount routers
 app.use('/jesste/api/users', userRoute);
 app.use('/jesste/api/keys', keyRoute);
 app.use('/jesste/api/admins', AdminRoute);
+app.use('/jesste/api/questions', QuestionRoute);
 
 //Port connection
 const PORT = process.env.PORT || 6570
