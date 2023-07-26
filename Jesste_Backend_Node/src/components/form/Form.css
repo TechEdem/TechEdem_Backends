@@ -1,0 +1,53 @@
+.reg-form {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+.reg-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+  }
+  
+.reg-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+
+  /* form {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 500px;
+  } */
+
+.reg-button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+  
+.reg-button:hover {
+    background-color: #45a049;
+  }
+
+  .error {
+    color: red;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
